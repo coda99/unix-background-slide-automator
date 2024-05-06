@@ -34,7 +34,7 @@ def prepare_img():
 def move_img():
     os.chdir(base_path)
 
-    ### Removing all new line characters from List
+    # Removing all new line characters from List
     newline_rm = str.maketrans('', '', '\n')
     img_list = [s.translate(newline_rm) for s in open_file(f"images.txt")]
 
@@ -51,10 +51,3 @@ def move_img():
             output, err = temp.communicate()
         except FileNotFoundError as e:
             print(e)
-
-    # os.chdir(f"{path}/{dir_name}")
-
-
-if __name__ == "__main__":
-    # prepare_img()
-    move_img()
