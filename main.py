@@ -27,6 +27,9 @@ if __name__ == "__main__":
             print("\tProgram Completed")
             print("----------------------------------")
             print()
+            print("----------------------------------")
+            print("Steps To Activate Automation")
+            print("----------------------------------")
             print(
                 "Go to Menu >> Preferences >> Appearance >> Background \n"
                 "Click on Add >> backgrounds >> '<Your dir name>' \n"
