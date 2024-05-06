@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 import os, sys, time
 from file import open_file
 from file_sys_manipulator import getpath, getdirname
