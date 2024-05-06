@@ -7,7 +7,7 @@ from file_sys_manipulator import getpath, getdirname
 
 year, month, day = time.gmtime()[0], time.gmtime()[1], time.gmtime()[2]
 
-### Creating a path and getting external paths
+# Creating a path and getting external paths
 filename = sys.argv[2]
 path = getpath()
 dir_name = getdirname()
@@ -27,7 +27,7 @@ def xml_writer(List):
     Returns an XML file and saves it to the specified directory given
   """
 
-  ### Removing all new line characters from List
+  # Removing all new line characters from List
   newline_rm = str.maketrans('', '', '\n')
   List = [s.translate(newline_rm) for s in List]
 
@@ -66,8 +66,4 @@ def xml_writer(List):
   except IndexError:
     with open(file_save_path, 'a') as f:
       print(f"</background>", file = f)
-
-if __name__ == '__main__':
-  l = open_file("hello.txt")
-  xml_writer(l)
 
