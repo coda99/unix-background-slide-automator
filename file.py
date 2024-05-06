@@ -13,6 +13,3 @@ def open_file(filename):
         l = f.readlines()
         f.close()
     return l
-
-# if __name__ == '__main__':
-#     print(open_file('images.txt'))
