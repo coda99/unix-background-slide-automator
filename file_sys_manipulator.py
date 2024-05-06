@@ -29,9 +29,7 @@ except IndexError:
 """
 
 def login():
-
     root_pass = subprocess.Popen([cmd, '-s'], stdout=subprocess.PIPE, stderr=subprocess.PIPE, stdin=subprocess.PIPE)
-
     out, err = root_pass.communicate()
     
 def user_perm():
@@ -43,10 +41,7 @@ def root_perm():
     output = payload.communicate()
 
 def dir_maker():
-
     os.chdir(base_path)
-
-    ### THIS PART BELOW IS WORKING PERFECTLY
 
     try:
         # dir_name = input("Input Directory Name: ")
@@ -66,8 +61,3 @@ def getdirname():
 
 def getpath():
     return base_path
-
-
-if __name__ == '__main__':
-    # login()
-    dir_maker()
