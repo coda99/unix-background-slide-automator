@@ -38,7 +38,5 @@ if __name__ == "__main__":
                 "Click on the drop down at your bottom right and select 'All files' \n"
                 "Double on your XML file to open \n"
             )
-
-
     except (IndexError, NameError):
         print("usage: <program name> <dir name> <xml filename>")
