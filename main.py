@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import sys
 from file_sys_manipulator import login, dir_maker, user_perm, root_perm
 from images import prepare_img, move_img
