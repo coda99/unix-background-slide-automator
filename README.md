@@ -1,6 +1,6 @@
-# unix-background-slide-automator
+# Linux_Distro-background-slide-automator
 
-A Unix background slide automator written in python
+A Linux Distro background slide automator written in python
 
 ## Usage
   main.py < dir name > < xml filename (foo.xml) >
